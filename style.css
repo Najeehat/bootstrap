@@ -142,9 +142,10 @@ header nav .nav-list .list a:hover{
     border: 0;
     color: #ffff;
     font-weight: bold;
+    border-radius: 35px;
 }
 .about .about-img img{
-    width: 650px;
+    width: 600px;
     margin-top: 20px;
 }
 .test{
