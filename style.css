@@ -93,7 +93,39 @@ header nav .nav-list .list a:hover{
     border: 1px solid #0000;
     border-radius: 35px;
 }
+/* Menu */
+.Menu{
+    background: #f7f7ff;
+}
+.Menu .men{
+    background: #ffff;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    height: 300px;
+}
+.Menu .men img{
+    width: 110px;
+    height: 100px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10%;
+}
+.Menu .menu-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Menu menu-title-desc{
+    font-size: 17px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
 /* About Us */
+.about{
+    background: #ffff;
+}
 .about .about-info h3{
     font-size: 25px;
     font-weight: normal;
