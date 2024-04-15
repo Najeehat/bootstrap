@@ -1,12 +1,12 @@
 $(document).ready(function(){
+
     //Stickey NavBar
-$(window).scroll(function(){
-    var sc = $(this).scrollTop();
-    if(sc> 100){
-        $('header').addClass('sticky');
-    }else{
-        $('header').removeClass('sticky');
-    }
-})
+    $(window).scroll(dunction(){
+        if($(this).scrollTop()>0){
+            $('.navbar').addClass('bg-black');
+        }else{
+            $('.navbar').removeClass('bg-black'); 
+        }
+    })
 })
 
