@@ -160,8 +160,8 @@ form{
     background-color: #fff;
     padding: 30px;
     border-radius: 25px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
  }
 form h3{
     font-size: 20px;
@@ -178,11 +178,13 @@ form .corps-formulaire{
 }
 form .corps-formulaire .groupe{
     position: relative;
-    margin: 20px ;
+    margin: 15px ;
     display: flex;
     flex-direction: column;
 }
-form .corps-formulaire .gauche .group{
+form .corps-formulaire .gauche .groupe input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
     border: 1px solid #c9c9c9;
     outline-color: #747cdf;
     border-radius: 10px;
@@ -191,11 +193,11 @@ form .corps-formulaire .gauche .groupe i {
     position: absolute;
     left: 0;
     top: 25px;
-    padding: 9px 8px;
+    padding: 19px 11px;
     color: #747cdf;
 }
 form .corps-formulaire .droite{
-    margin-left: 20px;
+    margin-left: 70px;
 }
 form .corps-formulaire .droite .groupe{
     height: 100%;
