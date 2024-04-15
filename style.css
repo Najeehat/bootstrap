@@ -37,12 +37,17 @@ body{
     right: 0;
     background: rgba(0, 0, 0, 0.5);
 }
+.sticky{
+    background: #0000;
+    color: #ffff;
+}
 header{
     height: auto;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     z-index: 999;
+    transition: background-color 0.4s ease-in-out;
 }
 header .restaurant-name h2{
     font-size: 35px;
@@ -150,4 +155,86 @@ header nav .nav-list .list a:hover{
 }
 .test{
     margin-bottom: 100px;
+}
+form{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+ }
+form h3{
+    font-size: 20px;
+}
+form .séparation {
+    width: 500px;
+    height: 1px;
+    background-color: #747cdf;
+}
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corps-formulaire .groupe{
+    position: relative;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+}
+form .corps-formulaire .gauche .group{
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 10px;
+}
+form .corps-formulaire .gauche .groupe i {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #747cdf;
+}
+form .corps-formulaire .droite{
+    margin-left: 20px;
+}
+form .corps-formulaire .droite .groupe{
+    height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea{
+   margin-top: 5px;
+    padding: 10px;
+    background-color: #d8d8d8 ;
+    border: 1px solid #747cdf ;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+    height: 72%;
+}
+form .pied-formulaire button{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #747cdf;
+    font-size:15px ;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+form .pied-formulaire button:hover{
+    transform: scale(1.05);
+    margin-top: 10px;
+    color: #fff;
+    background-color: #747cdf;
+    font-size:15px ;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
 }
