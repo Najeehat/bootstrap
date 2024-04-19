@@ -132,7 +132,6 @@ header nav .nav-list .list a:hover{
 .about{
     background: #ffff;
     margin-left: -100px;
-    
     border-top-right-radius: 55px;
     border-bottom-right-radius: 55px;
 }
@@ -160,6 +159,7 @@ header nav .nav-list .list a:hover{
 }
 .test{
     margin-bottom: 100px;
+   
 }
 form{
     background-color: #fff;
@@ -241,58 +241,89 @@ form .pied-formulaire button:hover{
     outline: none;
     cursor: pointer;
 }
-.site-footer{
-    padding: 80px 0;
+footer{
+    background-color: #7E554A;
+}
+.footer{
     background: #7E554A;
-    font-size: 14px;
-    color: #fff;
     margin-left: -100px;
     margin-right: -100px;
-    background-size: cover;
+    margin-top: 100px;
+    position: sticky;
+    margin-bottom: -30px;
 }
-.site-footer p{
-    margin-bottom: 0;
+h1{
+    writing-mode: vertical-rl;
+    font-size: 30px;
+    transform: rotate(180deg);
+    margin-left: 60px;
+    color: #522418;
 }
-.site-footer a{
-    color: #fff;
-    border-bottom: 1px solid transparent;
-}
-.site-footer a:hover{
-    color:#ffc107 ;
-    border-bottom: 1px solid #ffc107;
-}
-.site-footer h2{
-    font-size: 22px;
-    margin-bottom: 28px;
-    letter-spacing: 0.8px;
-    color: #fff;
-}
-.site-footer .footer-link li{
-    line-height: 1.5;
-    border-bottom: 15px;
-   
-}
-.footer-social a {
-    line-height: 0;
-    border-radius: 50%;
-    margin-bottom: 5px 2px 5px 2px ;
+hr{
+    background-color: #fff;
+    height: 2px;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 10PX;
     
 }
-.footer-social{
+h3{
+    font-size: 25px;
+    color: #fff;
+    
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.footer-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-link li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    position: relative;
+}
+.footer-link li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%) ;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #522418;
+    transition-duration: .5s;
+}
+.footer-link li:hover:before{
+    width: 90px;
+
+}
+.footer-social {
     line-height: 0;
     border-radius: 50%;
     margin-right: 20px;
+    margin-bottom: 40px;
     text-align:center;
     display:flex;
-    
     align-items:center;
+    
 }
-.footer-social a:hover{
-    background: #fff;
-    border-color: #fff;
-}
-.footer-social a .fa-brands{
+.footer-social a{
+    color: #fff;
+    margin-left: 20px;
     margin-bottom: 50px;
-    width: 30px;
-    height:50px;
+}
+.fa-brands{
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 40px;
+    
 }
