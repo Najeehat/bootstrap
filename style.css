@@ -28,10 +28,11 @@ body{
     bottom: 0.5px;
 }
 .section-header p{
-    width: 500px;
+    width: 550px;
     color: #888;
     margin: 10px auto ;
     line-height: 1.5;
+    text-align: center;
 
 }
 .overlay{
@@ -157,10 +158,6 @@ header nav .nav-list .list a:hover{
     width: 500px;
     margin-top: 20px;
 }
-.test{
-    margin-bottom: 100px;
-   
-}
 form{
     background-color: #fff;
     padding: 30px;
@@ -196,9 +193,9 @@ form .corps-formulaire .gauche .groupe input{
 }
 form .corps-formulaire .gauche .groupe i {
     position: absolute;
-    left: 25px;
+    left: 0;
     top: 25px;
-    padding: 16px 11px;
+    padding: 16px 12px;
     color: #747cdf;
 }
 form .corps-formulaire .droite{
@@ -241,6 +238,7 @@ form .pied-formulaire button:hover{
     outline: none;
     cursor: pointer;
 }
+/* Footer */
 footer{
     background-color: #7E554A;
 }
@@ -252,7 +250,7 @@ footer{
     position: sticky;
     margin-bottom: -30px;
 }
-h1{
+.titre{
     writing-mode: vertical-rl;
     font-size: 30px;
     transform: rotate(180deg);
@@ -260,29 +258,30 @@ h1{
     color: #522418;
 }
 hr{
-    background-color: #fff;
-    height: 2px;
+    background-color:#522418 ;
     width: 50%;
-    margin-left: 80px;
-    margin-top: 10PX;
+    height: 3px;
     
 }
-h3{
+.titr{
     font-size: 25px;
     color: #fff;
-    
     text-align: center;
+    margin-left: 10px;
 }
-p{
+.HI{
     font-size: 15px;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: justify;
 }
 .footer-link a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+.footer-link a:hover{
+    color: #522418;
 }
 .footer-link li{
     width: auto;
@@ -304,8 +303,8 @@ p{
 }
 .footer-link li:hover:before{
     width: 90px;
-
 }
+
 .footer-social {
     line-height: 0;
     border-radius: 50%;
@@ -314,8 +313,8 @@ p{
     text-align:center;
     display:flex;
     align-items:center;
-    
-}
+    }
+
 .footer-social a{
     color: #fff;
     margin-left: 20px;
@@ -326,4 +325,19 @@ p{
     margin-left: 30px;
     margin-top: 40px;
     
+}
+.fa-brands:hover{
+    color: #522418;
+}
+.botton-bar{
+    padding: 10px;
+}
+.botton-bar p{
+    text-align: center;
+}
+.separation{
+    width: 1320px;
+    height: 2px;
+    background-color: #522418;
+    margin: 0 0 0 8px;
 }
