@@ -45,9 +45,12 @@ body{
 }
 header{
     height: auto;
-    padding: 10px 0;
+    margin-top: 15px;
+    margin-left: 31px;
+    border-radius: 30px;
     position: fixed;
-    width: 100%;
+    width: 95%;
+    background-color: rgba(126, 85, 74, 0.8);
     z-index: 999;
     transition: background-color 0.4s ease-in-out;
 }
@@ -334,6 +337,7 @@ hr{
 }
 .botton-bar p{
     text-align: center;
+    color: black;
 }
 .separation{
     width: 1320px;
