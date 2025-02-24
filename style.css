@@ -247,10 +247,10 @@ footer{
 }
 .footer{
     background: #7E554A;
-    margin-left: -100px;
-    margin-right: -100px;
+    margin-left: -381px;
+    margin-right: -381px;
     margin-top: 100px;
-    position: sticky;
+    position: relative;
     margin-bottom: -30px;
 }
 .titre{
@@ -262,7 +262,7 @@ footer{
 }
 hr{
     background-color:#522418 ;
-    width: 50%;
+    width: 40%;
     height: 3px;
     
 }
@@ -340,8 +340,9 @@ hr{
     color: black;
 }
 .separation{
-    width: 1320px;
+    width: 90%;
+    margin: auto;
     height: 2px;
     background-color: #522418;
-    margin: 0 0 0 8px;
+    /*margin: 0 0 0 8px;*/
 }
